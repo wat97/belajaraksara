@@ -50,7 +50,7 @@ class _DetailScreenState extends State<DetailScreen> {
                 ),
                 ButtonPrimary(
                   buttonText: 'Belajar',
-                  onpressed: () => null,
+                  onpressed: () => prov.listeningApp(),
                 ),
               ],
             ),

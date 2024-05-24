@@ -13,7 +13,7 @@ class HomeProvider with ChangeNotifier {
 
   goToLatihan(BuildContext context) {
     print("goToLesson data");
-    context.go(
+    context.push(
       "/latihan",
     );
   }

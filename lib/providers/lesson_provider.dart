@@ -9,7 +9,7 @@ class LessonProvider with ChangeNotifier {
 
   goToDetail(ModelAksara choose, BuildContext context) {
     print("klikDetail");
-    context.go(
+    context.push(
       "/detail",
       extra: choose,
     );

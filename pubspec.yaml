@@ -41,6 +41,7 @@ dependencies:
   provider: ^6.1.2
   google_fonts: ^4.0.4
   speech_to_text: ^6.1.1
+  timer_count_down: ^2.2.2
 
 dev_dependencies:
   flutter_test:
